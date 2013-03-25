@@ -16,7 +16,7 @@ fi
 
 
 # Put your fun stuff here.
-[[ -f /etc/profile.d/bash-completion ]] && source /etc/profile.d/bash-completion
+[[ -f /etc/profile.d/bash-completion.sh ]] && source /etc/profile.d/bash-completion.sh
 
 # include aliases
 if [ -f ~/.bash_aliases ]; then
